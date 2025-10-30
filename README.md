@@ -23,16 +23,13 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### 수정한 내용
+### Vue 3 변환 내역
 
-```plaintext
-Vue 3 변환 내역
+1. `E-01-instance.vue`
 
-1. E-01-instance.vue
+- 기존 Options API의 data() 옵션을 Vue 3의 <script setup> 내 ref를 사용하도록 변환했습니다.
 
-기존 Options API의 data() 옵션을 Vue 3의 <script setup> 내 ref를 사용하도록 변환했습니다.
-
-name 옵션은 <script setup> 사용 시 파일명을 기반으로 자동 설정되므로 제거했습니다.
+- name 옵션은 <script setup> 사용 시 파일명을 기반으로 자동 설정되므로 제거했습니다.
 
 2. E-02-reactive.vue
 
