@@ -31,6 +31,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - name 옵션은 <script setup> 사용 시 파일명을 기반으로 자동 설정되므로 제거했습니다.
 
+**스크린샷**
+<img src="README_imgs/image1.png" width="520" alt="E-01 변환 화면" />
+
 2. `E-02-reactive.vue`
 
 - data 옵션을 ref로 변환했습니다.

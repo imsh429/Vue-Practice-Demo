@@ -1,15 +1,15 @@
 <template>
-  <E12RefComponent />
+  <E01Instance />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import E12RefComponent from "@/components/example6/E-12-ref-component.vue";
+import E01Instance from "@/components/example1/E-01-instance.vue";
 
 export default defineComponent({
   name: 'App',
   components: {
-    E12RefComponent
+    E01Instance
   }
 });
 </script>
