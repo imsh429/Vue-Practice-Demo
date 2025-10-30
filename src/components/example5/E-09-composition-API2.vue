@@ -1,14 +1,8 @@
-<script>
-export default {
-  name: 'E09CompositionApi'
-}
-</script>
-
-
 <script setup>
-import { ref, computed, watch, onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted, defineProps } from 'vue';
+import { ref, computed, watch, onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted } from 'vue';
 
 // props 정의
+// eslint-disable-next-line no-undef
 const props = defineProps({
   title: {
     type: String,
